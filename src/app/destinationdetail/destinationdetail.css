@@ -1,0 +1,165 @@
+.dcf_banner{
+  background-image: url('/destination-banner.webp') !important;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  margin-bottom: 40px;
+}
+.dcf_banner-col h1{
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+}
+.desti_detail-container .row, .destid-best-hotel-row{
+    margin: auto;
+}
+.desti_detail-container{
+    gap: 30px 0px;
+}
+.destid-cmn-cnt p, .destid-cmn-cnt li, .destid-activity-todo-box p, .destid-best-hotel-content p, .destid-best-price-box p{
+    font-size: 15px;
+}
+.destid-cmn-cnt p, .destid-cmn-cnt li{
+    margin-bottom: 10px;
+}
+.destid-cmn-cnt h2, .destid-cmn-cnt h3, .destid-cmn-cnt h4, .destid-cmn-cnt h5{
+    margin: 10px 0px !important;
+}
+.destid-ptv-col{
+    gap: 7px 0px;
+    text-align: center;
+}
+.destid-ptv-col p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.destid-ptv-col img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.destid-activity-todo-col{
+    align-items: start !important;
+}
+.destid-activity-todo-box{
+    width: 19%;
+    padding: 10px;
+    border-radius: 10px;
+    background: lightgray;
+    gap: 7px;
+    text-align: left;
+}
+.destid-activity-todo-box img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.destid-best-hotel-col{
+    align-items: start !important;
+}
+.destid-best-hotel-box{
+    width: 19%;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.destid-best-hotel-image{
+    position: relative;
+    width: 100%;
+}
+.destid-best-hotel-image img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.desti-d-hotel-deal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #ff7a48;
+    color: white;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-top-left-radius: 15px;
+}
+.destid-best-hotel-content{
+    padding: 5px;
+    gap: 7px;
+}
+.hotel-country, .destid-hotel-rating p{
+    font-size: 13px !important;
+}
+.destid-hotelrate p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.destid-best-hotel-btn, .destid-best-hotel-btn:hover{
+    background: #ff7a48;
+    color: white;
+    border-radius: 10px;
+}
+.destid-best-price-box{
+    border: 2px dashed lightgray;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.destid-best-price-box p{
+    font-weight: 500;
+}
+.destid-bp-btn, .destid-bp-btn:hover{
+    background: #ff7a48;
+    color: white;
+    border-radius: 10px;
+}
+.destid-bpb-heading h4{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    .dcf_banner{
+        height: 300px;
+        margin-bottom: 15px;
+    }
+    .destid-cmn-cnt p, .destid-cmn-cnt li, .destid-activity-todo-box p, .destid-best-hotel-content p, .destid-best-price-box p{
+        font-size: 14px;
+    }
+    .desti_detail-container{
+        gap: 20px 0px;
+    }
+    .desti-d-first-hide{
+        display: none !important;
+    }
+    .destid-activity-todo-box, .destid-best-hotel-box{
+        width: 24%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .destid-activity-todo-box, .destid-best-hotel-box{
+        width: 49%;
+    }
+    .destid-best-hotel-col, .destid-activity-todo-col{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .destid-second-hide{
+        display: none !important;
+    }
+    .destid-cmn-cnt p, .destid-cmn-cnt li, .destid-activity-todo-box p, .destid-best-hotel-content p, .destid-best-price-box p{
+        font-size: 13px;
+    }
+    .destid-ptv-col img, .destid-activity-todo-box img{
+        height: 200px;
+    }
+    .destid-best-hotel-btn, .destid-best-hotel-btn:hover, .destid-bp-btn, .destid-bp-btn:hover{
+        font-size: 12px;
+    }
+}

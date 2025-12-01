@@ -1,0 +1,83 @@
+.header-bottom{
+    background-image: linear-gradient(to right,#252b77,#ff7a48);
+    padding: 25px 0px;
+}
+.header-bottom-col{
+    gap: 55px;
+}
+.header-bottom-col a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.ht-components{
+    gap: 30px;
+}
+.ht-component-box{
+    gap: 6px;
+}
+.ht-component-box p, .ht-component-box a{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.header-mobile-call{
+    display: none !important;
+}
+@media screen and (max-width: 992px) {
+    .header-logo{
+        height: 90px !important;
+        width: auto;
+    }
+    .ht-component-box p, .ht-component-box a, .header-bottom-col a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ht-components{
+        gap: 20px;
+    }
+    .header-bottom-col button{
+        padding: 10px;
+    }
+    .header-bottom{
+        padding: 15px 0px;
+    }
+    .header-bottom-col{
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .ht-components, .header-bottom{
+        display: none !important;
+    }
+    .header-mobile-call{
+        display: flex !important;
+        background: #ff7a48;
+        border-radius: 50px;
+        padding: 5px 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        gap: 5px;
+    }
+    .header-mobile-call p, .header-mobile-call a{
+        font-size: 13px;
+        color: #252b77;
+        font-weight: 700;
+    }
+    .mobile-call{
+        height: 33px !important;
+        width: auto !important;
+    }
+}
+@media screen and (max-width: 413px) {
+    .header-logo{
+        height: 80px !important;
+        width: auto !important;
+    }
+    .header-mobile-call p, .header-mobile-call a{
+        font-size: 11px !important;
+    }
+    .footer-bottom-image img{
+        height: 25px;
+    }
+}

@@ -1,0 +1,156 @@
+.footer{
+    background-image: linear-gradient(to right,#252b77,#ff7a48);
+    color: white;
+}
+.footer-top{
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(256,256,256, 0.5);
+}
+.footer-about p, .footer-link a, .footer-contact p, .footer-contact a, .footer-bottom-col-disclaimer p, .footer-bottom-last p{
+    font-size: 15px;
+    color: white;
+}
+.footer-link , .footer-contact{
+    gap: 13px 0px;
+}
+.footer-social-media{
+    gap: 15px;
+}
+.footer-social-media img{
+    height: 30px;
+    width: 30px;
+}
+.footer-bottom-row{
+    padding: 25px 0px 10px 0px;
+    gap: 25px 0px;
+}
+.footer-bottom-col-disclaimer{
+    background: rgba(256,256,256, 0.2);
+    padding: 15px ;
+    border-radius: 10px;
+}
+.footer-bottom-image{
+    gap: 25px;
+}
+.footer-bottom-image img{
+    height: 40px;
+    width: auto;
+}
+.footer-cookie{
+    background: white;
+    padding: 20px 0px;
+    color: black;
+    
+}
+.footer-cookie-col{
+    gap: 10px;
+}
+.footer-cookie-col strong{
+    font-size: 17px;
+}
+.footer-cookie-col p{
+    font-size: 15px;
+}
+.footer-cookie-content-buttons{
+    gap: 20px;
+}
+.footer-cookie-content-buttons .btn, .footer-cookie-content-buttons .btn:hover{
+    background: #ff7a48;
+    width: 23%;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media screen and (max-width: 992px) {
+    .footer-top-row{
+        gap: 20px 0px;
+    }
+    .footer-about p, .footer-link a, .footer-contact p, .footer-contact a, .footer-bottom-col-disclaimer p, .footer-bottom-last p{
+        font-size: 13px;
+    }
+    .footer-bottom-image img{
+        height: 30px;
+    }
+    .footer-about img{
+        height: 100px;
+        width: auto;
+    }
+    .footer-cookie-col strong{
+        font-size: 14px;
+    }
+    .footer-cookie-col p{
+        font-size: 13px;
+    }
+    .footer-cookie-content-buttons .btn, .footer-cookie-content-buttons .btn:hover{
+        font-size: 13px;
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-about img{
+        height: 70px;
+    }
+    .footer-top{
+        padding: 15px 0px;
+    }
+    .footer-bottom-image{
+        gap: 15px;
+    }
+    .footer-bottom-image img{
+        height: 25px;
+    }
+    .footer-cookie-content-buttons .btn, .footer-cookie-content-buttons .btn:hover{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .footer-hide{
+        display: none !important;
+    }
+    .footer-bottom-image{
+        flex-wrap: wrap;
+    }
+    .footer-bottom-image img{
+        height: 30px;
+        justify-content: space-between !important;
+    }
+    .footer-cookie-content-buttons .btn, .footer-cookie-content-buttons .btn:hover{
+        width: 48%;
+        font-size: 12px;
+    }
+    .footer-cookie-content-buttons .btn>img{
+        height: 15px;
+        width: 15px;
+    }
+    .footer-cookie-content-buttons{
+        gap: 5px;
+    }
+    .cookies{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+/*----------sticky bottom-----*/
+.sticky-btm{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .sticky-btm{
+        display: flex;
+        background: #ff7a48;
+        padding: 10px;
+        gap: 10px;
+    }
+    .sticky-btm img{
+        height: 50px;
+        width: auto;
+    }
+    .sticky-btm-content p, .sticky-btm-content a{
+        color: white;
+    }
+    .sticky-btm-content a{
+        font-weight: 700;
+         font-size: 20px;
+    }
+}

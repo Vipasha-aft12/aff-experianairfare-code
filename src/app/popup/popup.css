@@ -1,0 +1,47 @@
+.footer, .header, .popup{
+    display: none !important;
+}
+@media screen and (max-width: 576px) {
+    .popup{
+        display: flex !important;
+    }
+    .popup{
+        margin: auto;
+        text-align: center;
+    }
+    .popup-content-col{
+        gap: 15px;
+    }
+    .popup-content-col strong{
+        font-size: 20px;
+    }
+    .popup-content-col p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .popup h4{
+        color: #ff7a48;
+        font-weight: 700;
+        background: white;
+        border: 3px solid lightgray;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .popup-ul{
+        background: #ff7a48;
+        width: 100%;
+        border-radius: 10px;
+        padding: 15px  !important;
+        margin-top: 10px !important;
+        gap: 10px 0px;
+        flex-wrap: wrap;
+    }
+    .popup-ul li{
+        width: 48%;
+        text-align: left;
+        font-size: 15px;
+        list-style: none;
+    }
+}
