@@ -1211,3 +1211,128 @@ p, h1, h2, h3, h4, h5, h6 {
     }
 
 
+
+
+    .main-body{
+        position: relative;
+    }
+    .sticky-bottom-offer{
+        position: fixed;
+        bottom: 20px;
+        left: 30%;
+        width: 40%;
+        right: 30%;
+        background: #ff7a48;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+    }
+    .sticky-bottom-offer-box{
+        align-items: flex-start !important;
+        width: 100%;
+    }
+    .banner-content-top-heading{
+        align-items: center;
+        gap: 10px;
+    }
+    .banner-content-top-heading strong{
+        font-size: 24px;
+    }
+    .banner-content-top-heading img{
+        height: 30px;
+        width: auto;
+    }
+    .banner-content-top{
+        gap: 10px;
+    }
+    .banner-content-top p{
+        font-size: 17px;
+    }
+    .banner-content-top span{
+        background: #252b77;
+        padding: 3px 5px;
+        border-radius: 5px;
+        margin: 0px 5px 0px 5px;
+        font-weight: 500;
+    }
+    .banner-content-bottom{
+        align-items: center !important;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .banner-content-bottom-one{
+        background: white;
+        gap: 5px;
+        color: black;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 5px 10px;
+        font-weight: 500;
+    }
+    .banner-content-bottom-one img{
+        height: 25px;
+        width: auto;
+    }
+    .banner-content-bottom-two{
+        background: #252b77 !important;
+        color: white !important;
+        font-size: 14px !important;
+        padding: 5px 10px !important;
+        font-weight: 500 !important;
+    }
+    .sticky-bottom-offer .close-btn{
+        border: none !important;
+        background: transparent !important;
+        color: white !important;
+        width: fit-content !important;
+    }
+    .sticky-bottom-offer-row{
+        margin: auto;
+    }
+
+    @media screen and (max-width: 1400px) {
+        .sticky-bottom-offer{
+        bottom: 10px;
+        left: 20%;
+        width: 60%;
+        right: 20%;
+    }
+    }
+    @media screen and (max-width: 1200px) {
+        .sticky-bottom-offer{
+        left: 10%;
+        width: 80%;
+        right: 10%;
+    }
+    }
+    @media screen and (max-width: 767px){
+        .banner-content-bottom-two{
+        font-size: 12px !important;
+    }
+    .banner-content-bottom-one{
+        font-size: 12px;
+    }
+    .banner-content-top p{
+        font-size: 14px;
+    }
+        .banner-content-top-heading strong{
+        font-size: 18px;
+    }
+    .banner-content-top-heading img{
+        height: 20px;
+    }
+    } 
+    @media screen and (max-width: 576px){
+         .sticky-bottom-offer{
+        left: 5%;
+        width: 90%;
+        right: 5%;
+    }
+}
+@media screen and (max-width: 413px){
+    .banner-content-bottom{
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
